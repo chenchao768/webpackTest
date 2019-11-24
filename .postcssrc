@@ -1,0 +1,13 @@
+{
+  "plugins": {
+    "autoprefixer":{},
+    "postcss-write-svg":{
+        "utf8": false
+    },
+    "postcss-pxtorem":{
+      "rootValue":50,
+      "propList":["*"],
+      "mediaQuery ":false
+    }
+  }
+}
